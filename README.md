@@ -1,7 +1,7 @@
 # Gabriel Miguel Cabrera Samano 20491199
 # Formulario validado
 
-## Explique el funcionamiento de la etiqueta input en HTML, indicando los diferentes argumentos que puede tener.
+## El funcionamiento de la etiqueta input en HTML y los diferentes argumentos que puede tener.
 -  se utiliza para crear un control interactivo en un formulario web que permite a los usuarios ingresar datos. El funcionamiento de esta etiqueta varía según el valor del atributo type, que determina el tipo de control que se creará:
 type: Especifica el tipo de control que se va a crear. Algunos de los valores más comunes son:
 - - text: Crea un campo de texto de una sola línea.
@@ -19,13 +19,13 @@ algunas de las propiedades que se pueden implementar en html para los input, pue
 - required: Es un atributo booleano que indica si el control debe ser completado antes de enviar el formulario. Cuando está presente, el navegador no permite enviar el formulario hasta que este control tenga un valor.
 - disabled: También es un atributo booleano que deshabilita el control, lo que significa que el usuario no puede interactuar con él ni enviar su valor con el formulario.
 
-## Explique como puede configurarse la etiqueta button.
+## como puede configurarse la etiqueta button.
 - la etiqueta button se utiliza para crear un botón en una página web que puede realizar acciones como enviar un formulario, ejecutar scripts de JavaScript, o realizar cualquier acción interactiva definida por el desarrollador. sin embargo, para este proyecto, sustituimos su implementacion con la introduccion del input gracias a las herramientas que proporciona boostrap, de esta manera, cambiamos el input de manera que efectue como un boton cualquiera.
 
-## Explique el método addEventlistener y como se utiliza en este proyecto.
+## El método addEventlistener y como se utiliza en este proyecto.
 - document.getElementById('formulario').addEventListener('submit', (e) => {} nos permite analizar el documento que manera que reconozca todos los elementos que conforman parte del id formulario. nosotros implementamos un evento al momento que realizamos un click en el boton, y de esta manera registramos toda la informacion que forme parte del documento. este evento se efectuara para todos los input de type 'submit' con el que lo relacionamos.
 
-## Explique la forma en que son validadas cada una de las entradas.
+## La forma en que son validadas cada una de las entradas.
 - expRegid = !(/^\d{5}$/).test(clave);
 - la expresion del id consta de unicamente considerar 5 digitos al evaluar la variable de la clave, en donde si no existe un valor ingresado o dentro de la expresion no reconoce el texto, enviara un error de campo invalidado
 if(clave == null || expRegid){
