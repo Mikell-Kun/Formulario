@@ -19,7 +19,7 @@ algunas de las propiedades que se pueden implementar en html para los input, pue
 - required: Es un atributo booleano que indica si el control debe ser completado antes de enviar el formulario. Cuando está presente, el navegador no permite enviar el formulario hasta que este control tenga un valor.
 - disabled: También es un atributo booleano que deshabilita el control, lo que significa que el usuario no puede interactuar con él ni enviar su valor con el formulario.
 
-## como puede configurarse la etiqueta button.
+## Como puede configurarse la etiqueta button.
 - la etiqueta button se utiliza para crear un botón en una página web que puede realizar acciones como enviar un formulario, ejecutar scripts de JavaScript, o realizar cualquier acción interactiva definida por el desarrollador. sin embargo, para este proyecto, sustituimos su implementacion con la introduccion del input gracias a las herramientas que proporciona boostrap, de esta manera, cambiamos el input de manera que efectue como un boton cualquiera.
 
 ## El método addEventlistener y como se utiliza en este proyecto.
